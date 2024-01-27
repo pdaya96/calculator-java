@@ -27,17 +27,6 @@ public class Calculator {
         System.out.println("Product: " + product);
         System.out.println("Quotient: " + quotient);
 
-                // Prompt user for input
-        System.out.println("Enter the Usser name:");
-        String username = scanner.nextDouble();
-
-        System.out.println("Enter the Password:");
-        String password = scanner.nextDouble();
-        
-String sql = "SELECT * FROM users WHERE username='" + username + "' AND password='" + password + "'";
-Statement stmt = conn.createStatement();
-ResultSet rs = stmt.executeQuery(sql);
-
         String input1 = "password1";
         String input2 = "password2";
 
